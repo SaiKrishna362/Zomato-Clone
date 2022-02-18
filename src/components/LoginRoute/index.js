@@ -83,6 +83,7 @@ class Login extends Component {
           id="username"
           className="username-input-field"
           value={username}
+          autoComplete="off"
           placeholder="username"
           onChange={this.onChangeUsername}
         />
