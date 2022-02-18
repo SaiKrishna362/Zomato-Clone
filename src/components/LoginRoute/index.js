@@ -96,6 +96,14 @@ class Login extends Component {
     }
     return (
       <div className="login-form-container">
+        <div className="mob-dis-container">
+          <p className="login-mobile-text">Login</p>
+          <img
+            src="https://res.cloudinary.com/nsp/image/upload/v1635304889/tastyKitchens/LoginMobile_1x_iukq3u.jpg"
+            className="login-image-mobile"
+            alt="website login"
+          />
+        </div>
         <div className="login-container">
           <form className="form-container" onSubmit={this.submitForm}>
             <img
