@@ -7,6 +7,33 @@
   width: 100%;
 }
 
+.mob-dis-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 992px) {
+  .mob-dis-container {
+    display: none;
+  }
+}
+
+.login-image-mobile {
+  width: 80%;
+}
+
+.login-mobile-text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0f172a;
+  align-self: flex-end;
+}
+
 @media screen and (min-width: 992px) {
   .login-form-container {
     flex-direction: row;
@@ -108,8 +135,7 @@
 
 @media screen and (max-width: 992px) {
   .login-heading {
-    text-align: left;
-    align-self: flex-start;
+    display: none;
   }
 }
 
